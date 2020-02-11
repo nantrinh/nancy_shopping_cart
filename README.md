@@ -1,12 +1,8 @@
 # Shopping Cart App
 
 ## Setup
-1. Install [Node.js](https://nodejs.org/en/download/package-manager/) if you haven't already
-1. Install [yarn](https://yarnpkg.com/en/docs/install#mac-stable)
-3. Install the `create-react-app` package globally: `yarn global add create-react-app`
-4. Clone this repository
-5. `cd` into the downloaded directory
-6. Run `yarn install` from the command line to install all dependencies
+1. `yarn install` in top-level directory
+2. `yarn start` in top-level directory
 
 ## Running the app
 While in the app directory, run `yarn start` to start the live server. The command line will display the address you need to visit. The live server will watch for changes to files in the `src` directory and reload the page when they're changed.
