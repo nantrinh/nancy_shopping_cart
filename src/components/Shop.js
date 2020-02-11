@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Cart from './Cart';
-import ProductList from './ProductList';
+import EditableProductList from './EditableProductList';
 //import ToggleableProductForm from './ToggleableProductForm.js';
 
 class Shop extends Component {
@@ -13,7 +13,7 @@ class Shop extends Component {
         </header>
 
         <main>
-          <ProductList />
+          <EditableProductList />
 
           <div className="add-htmlForm visible">
             <p><a className="button add-product-button">Add A Product</a></p>
